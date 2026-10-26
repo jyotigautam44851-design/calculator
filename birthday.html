@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Bestie 💜</title>
+
+    <link rel="stylesheet" href="birthday.css">
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <section class="hero">
+
+        <h2>✨ A Special Day For Someone Special ✨</h2>
+
+        <h1>Happy Birthday</h1>
+
+        <h1 class="name">My sunshine 💜</h1>
+
+        <p>
+            You are not just my friend,
+            you are one of my favourite memories! 🫶🏻
+        </p>
+
+        <button onclick="openLetter()">
+            Open Your Birthday Letter 💌
+        </button>
+
+    </section>
+
+
+    <!-- Birthday Music -->
+
+    <section class="music">
+
+        <h2>🎵 Birthday Music 🎵</h2>
+
+        <p>Let's make your birthday more special!</p>
+
+        <audio id="birthdaySong" loop>
+            <source src="birthday-song.mp3" type="audio/mpeg">
+        </audio>
+
+        <button onclick="toggleMusic()" id="musicButton">
+            ▶ Play Birthday Song
+        </button>
+
+        <p class="small">
+            Add your favourite birthday song as birthday-song.mp3
+            in the same folder.
+        </p>
+
+    </section>
+
+
+    <!-- Birthday Letter -->
+
+    <section class="letter" id="letter">
+
+        <h2>💌 A Letter For You 💌</h2>
+
+        <p>
+            Happy Birthday, my sunshine! 💜🎂
+
+            <br><br>
+
+            You are such a beautiful part of my life.
+            Thank you for all the smiles, memories and happiness.
+
+            <br><br>
+
+            May your life be filled with love, success,
+            beautiful moments and endless happiness.
+
+            <br><br>
+
+            Always keep smiling and shining like a star.
+            May all your dreams come true! ✨
+
+            <br><br>
+
+            Love you so much, my sunshine! 🫶🏻💖
+        </p>
+
+    </section>
+
+
+    <!-- Photo Gallery -->
+
+    <section class="gallery-section">
+
+        <h2>📸 Our Beautiful Memories 💗</h2>
+
+        <p>Every picture has a special memory.</p>
+
+        <div class="gallery">
+
+            <img src="photo1.jpg" alt="Memory 1">
+            <img src="photo2.jpg" alt="Memory 2">
+            <img src="photo3.jpg" alt="Memory 3">
+            <img src="photo4.jpg" alt="Memory 4">
+            <img src="photo5.jpg" alt="Memory 5">
+            <img src="photo6.jpg" alt="Memory 6">
+            <img src="photo7.jpg" alt="Memory 7">
+            <img src="photo8.jpg" alt="Memory 8">
+            <img src="photo9.jpg" alt="Memory 9">
+
+        </div>
+
+    </section>
+
+
+    <!-- Surprise -->
+
+    <section class="surprise">
+
+        <h2>🎁 One Last Surprise!</h2>
+
+        <button onclick="showSurprise()">
+            Tap Here 💖
+        </button>
+
+        <div id="surpriseMessage">
+
+            <h2>🎉 Happy Birthday! 🎉</h2>
+
+            <p>
+                May your smile never fade,
+                your heart always stay happy,
+                and your life be full of magic! 💜
+
+                <br><br>
+
+                You deserve all the happiness in the world. 🦋
+
+                <br><br>
+
+                Lots of love, your bestie! 💖
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        Made with 💜 and lots of love ✨
+    </footer>
+
+    <script src="birthday.js"></script>
+
+</body>
+
+</html>
